@@ -1,0 +1,54 @@
+#back {
+    height: 100vh;
+    width: 100%;
+}
+#back img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#top  {
+    height: 100vh;
+    width: 100%;
+    pointer-events: none;
+    position: absolute;
+    top: 12px;
+}
+#nav {
+    pointer-events: all;
+}
+#container {
+    height: 88vh;
+    
+}
+#cont1
+{
+    height: 60vh;
+}
+#cont2  {
+    width: 27%;
+}
+.elem {
+    position: relative;
+    /* background-color: red;    */
+    font-size: 75px;
+    color:white;
+    height: 120px;
+    font-weight: 900;
+    overflow: hidden;
+    margin: 12px 0 ;
+}
+.elem h1 {
+    position: absolute;
+    top: 100%;
+}
+.elem h1:nth-child(1) {
+    position: absolute;
+    top: 0;
+}
+
+#btn {
+    position: absolute;
+    left: 10%;
+    pointer-events: all;
+}
